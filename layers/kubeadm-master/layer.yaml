@@ -1,0 +1,6 @@
+includes: ['layer:basic', 'interface:kubeadm-cluster']  # if you use any interfaces, add them here
+options:
+  basic:
+    packages:
+    - docker.io
+    - apt-transport-https

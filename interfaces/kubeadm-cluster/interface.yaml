@@ -1,0 +1,4 @@
+name: kubeadm-cluster
+summary: Interface for relating to Kubeadm master and nodes
+version: 1
+maintainer: "Konstantinos Tsakalozos <kos.tsakalozos@canonical.com>"

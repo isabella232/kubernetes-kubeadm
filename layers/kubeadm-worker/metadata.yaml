@@ -1,0 +1,14 @@
+name: kubeadm-worker
+summary: <Fill in summary here>
+maintainer: jackal <jackal@jackal-VGN-FZ11M>
+description: |
+  <Multi-line description here>
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+subordinate: false
+requires:
+  kubeadm-master:
+    interface: kubeadm-cluster
+series: ['xenial']

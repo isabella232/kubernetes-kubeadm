@@ -1,0 +1,5 @@
+options:
+  network:
+    type: string
+    default: "falnnel"
+    description: "Network. Values: flannel, canal"
